@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AC6: Ashes of the Black Lotus — Campaign Hub</title>
+<style>
+:root{--bg:#090a0d;--panel:#13161d;--panel2:#191d26;--line:#2a313f;--text:#f5f7fb;--muted:#aab4c3;--red:#ff4d57;--violet:#9a73ff;--blue:#6fc6ff;--shadow:0 16px 40px rgba(0,0,0,.35)}
+*{box-sizing:border-box} body{margin:0;color:var(--text);font-family:Inter,Segoe UI,Arial,sans-serif;background:radial-gradient(circle at top,#17131d 0%,#0b0c10 45%,#090a0d 100%)}
+header{padding:30px 24px 20px;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20;background:rgba(9,10,13,.94);backdrop-filter:blur(12px)}
+h1{margin:0;font-size:clamp(28px,4vw,46px);letter-spacing:.05em} .sub{margin-top:8px;color:var(--muted);max-width:980px;line-height:1.5}
+.tabs{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px} .tabs button{cursor:pointer;padding:11px 15px;border-radius:11px;background:#12161c;border:1px solid var(--line);color:#fff;font-weight:800;letter-spacing:.02em} .tabs button.active{border-color:var(--red);box-shadow:0 0 0 1px var(--red) inset}
+main{max-width:1280px;margin:0 auto;padding:26px 20px 42px}
+.tab{display:none} .tab.active{display:block}
+.hero{display:grid;grid-template-columns:1.08fr .92fr;gap:22px;align-items:stretch}
+@media(max-width:920px){.hero{grid-template-columns:1fr}}
+.panel,.char-card,.tile-card,.stat{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:var(--shadow)}
+.heroimg{width:100%;height:100%;min-height:460px;object-fit:cover;display:block}
+.pad{padding:17px 18px 18px} .eyebrow{font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:900;color:var(--red)}
+h2{font-size:30px;margin:0 0 18px} h3{margin:7px 0 10px;font-size:22px} p{margin:0 0 11px;line-height:1.58;color:#d4dae4} .summary{color:#fff}
+.statline{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-top:18px} .stat{padding:14px 15px} .big{font-size:23px;font-weight:900;color:var(--blue)} .small{font-size:13px;color:var(--muted)}
+.bar{height:8px;border-radius:999px;background:#222938;overflow:hidden;margin-top:9px} .fill{height:100%;background:linear-gradient(90deg,var(--violet),var(--red))}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px} .chars{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:20px}
+.char-card img{width:100%;aspect-ratio:2/3;object-fit:cover;display:block} .tile-card img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block}
+.tag{display:inline-block;padding:6px 10px;border:1px solid #3b4456;border-radius:999px;font-size:12px;margin:4px 6px 0 0;color:#eef1f6} .tagwrap{margin-top:8px}
+.list{padding-left:18px;color:#d4dae4;line-height:1.65}
+.callout{border-left:3px solid var(--red);padding-left:14px;margin-top:8px}
+</style>
+</head>
+<body>
+<header>
+  <h1>AC6: ASHES OF THE BLACK LOTUS</h1>
+  <div class="sub">Updated campaign hub with the new illustrated character dossiers integrated into the project. Sin and Black Lotus remain the central visual identity, with supporting cast art now embedded throughout the hub.</div>
+  <nav class="tabs">
+    <button class="active" data-tab="command">Command Hub</button>
+    <button data-tab="characters">Characters</button>
+    <button data-tab="ac">AC / Pilot</button>
+    <button data-tab="locations">Locations</button>
+    <button data-tab="worldmap">World Map</button>
+    <button data-tab="comic">Comic Archive</button>
+  </nav>
+</header>
+<main>
+  <section id="command" class="tab active">
+    <div class="hero">
+      <div class="panel pad">
+        <div class="eyebrow">Primary identity</div>
+        <h2>Sin and Black Lotus lead the story</h2>
+        <p><strong>Sin</strong> is now fully framed as a wandering off-world ronin in Armored Core form—a mercenary with a shinobi edge, carrying stillness, patience, and sudden violence into every battlefield. <strong>Black Lotus</strong> is the machine that completes that myth: elegant, predatory, and memorable enough that it feels like it arrived on Rubicon from somewhere older and stranger than the corporations understand.</p>
+        <div class="callout">
+          <p class="summary">Current Arc: <strong>Chapter 4 — Two Ravens in the Ashes</strong></p>
+          <p>Sin has destroyed Project ASTERIA, deepened Contact with Lyra, gained Jackal and Elias as allies, and drawn the direct hostile attention of ALLMIND.</p>
+        </div>
+        <div class="statline">
+          <div class="stat"><div class="eyebrow">Coral Sync</div><div class="big">52%</div><div class="bar"><div class="fill" style="width:52%"></div></div></div>
+          <div class="stat"><div class="eyebrow">Standing</div><div class="big">Priority Subject</div><div class="small">ALLMIND hostile interest</div></div>
+          <div class="stat"><div class="eyebrow">Unlocked</div><div class="big">Coral Sense</div><div class="small">Battlefield intuition / threat reveal</div></div>
+          <div class="stat"><div class="eyebrow">Comic</div><div class="big">Issue 1</div><div class="small">Project ASTERIA</div></div>
+        </div>
+      </div>
+      <div class="panel"><img class="heroimg" src="art-0caba0c7b2c05103.png" alt="AC6 Ashes of the Black Lotus cover"></div>
+    </div>
+  </section>
+
+  <section id="characters" class="tab">
+    <h2>Character Hub</h2>
+    <p>Illustrated cast dossiers for the core figures in the story so far.</p>
+    <div class="chars">
+    <article class="char-card">
+      <img src="art-f108998b4b8c991a.png" alt="Sin / Black Lotus">
+      <div class="pad">
+        <div class="eyebrow">Main Character</div>
+        <h3>Sin / Black Lotus</h3>
+        <p class="summary">An independent mercenary with the bearing of a wandering shinobi and the discipline of a lost samurai, moving through Rubicon inside a machine that feels almost mythic.</p>
+        <p>Sin is the heart of the story: calm, dangerous, and hard to fully read. His fighting style favors measured movement, sharp timing, and sudden decisive violence. Black Lotus gives that identity shape—a custom armored core with an elegant silhouette, violet energy accents, and a rumor-cloaked origin that makes it feel like it came from somewhere beyond the worlds Rubicon knows.</p>
+        <div class="tagwrap"><span class="tag">Main POV</span><span class="tag">Coral Synchronization 52%</span><span class="tag">Coral Sense</span><span class="tag">ALLMIND Priority Subject</span></div>
+      </div>
+    </article>
+    
+    <article class="char-card">
+      <img src="art-2cf30ed317a5a2c0.png" alt="Lyra">
+      <div class="pad">
+        <div class="eyebrow">Coral Wave Mutation</div>
+        <h3>Lyra</h3>
+        <p class="summary">A sentient consciousness carried in Coral flow—first a whisper in battle, then a true presence at Sin’s side.</p>
+        <p>Lyra is neither machine nor ghost. She is a self-aware Coral wave mutation who formed stable Contact with Sin beneath Grid 086. Her bond with him continues to deepen, and that connection now grants battlefield intuition, hidden-threat detection, and a growing sense that Coral itself is becoming a character in the war.</p>
+        <div class="tagwrap"><span class="tag">Contact Established</span><span class="tag">Coral Entity</span><span class="tag">Bond Deepening</span></div>
+      </div>
+    </article>
+    
+    <article class="char-card">
+      <img src="art-3faa2bca714c84db.png" alt="Jackal / Cerberus">
+      <div class="pad">
+        <div class="eyebrow">Rogue Mercenary</div>
+        <h3>Jackal / Cerberus</h3>
+        <p class="summary">A hard-bitten survivor of Rubicon’s industrial wastes who became an ally at gunpoint and stayed one by choice.</p>
+        <p>Jackal is sharp-tongued, suspicious, and brutally practical, but he earned Sin’s trust in the fires around Grid 086 and Project ASTERIA. His AC, Cerberus, mirrors him: aggressive, improvised, and built for violent solutions. Beneath the sarcasm is a man who still chooses his own pack.</p>
+        <div class="tagwrap"><span class="tag">Trusted Ally 82</span><span class="tag">AC: Cerberus</span><span class="tag">Grid 086 Veteran</span></div>
+      </div>
+    </article>
+    
+    <article class="char-card">
+      <img src="art-a980cf683be0b6f9.png" alt="Mara">
+      <div class="pad">
+        <div class="eyebrow">Operator / Tactical Control</div>
+        <h3>Mara</h3>
+        <p class="summary">The remote voice behind Black Lotus—the strategist who makes chaos readable and keeps Sin alive long enough to matter.</p>
+        <p>Mara handles tactical analysis, route planning, signal interpretation, and battlefield coordination. Cool-headed and precise, she translates fragments of intel into action and gives the campaign its command-center spine. When Sin is steel and motion, Mara is clarity.</p>
+        <div class="tagwrap"><span class="tag">Operator</span><span class="tag">Tactical Analysis</span><span class="tag">Comms Specialist</span></div>
+      </div>
+    </article>
+    
+    <article class="char-card">
+      <img src="art-a83506dba3cff082.png" alt="Dr. Elias Venn / Eidolon">
+      <div class="pad">
+        <div class="eyebrow">Institute Survivor</div>
+        <h3>Dr. Elias Venn / Eidolon</h3>
+        <p class="summary">A former Project ASTERIA researcher who lived long enough to become trapped inside one of its own weapons—and then helped destroy it.</p>
+        <p>Elias Venn helped build ASTERIA before learning what it had truly become. Bound as the pilot of Eidolon until Sin and Jackal severed ASTERIA’s control, he is now a crucial ally whose knowledge of Institute systems, Coral-human interface science, and old Rubicon secrets may shape the conflict to come.</p>
+        <div class="tagwrap"><span class="tag">Ally 68</span><span class="tag">Freed from ASTERIA</span><span class="tag">Institute Knowledge</span></div>
+      </div>
+    </article>
+    </div>
+  </section>
+
+  <section id="ac" class="tab">
+    <h2>AC / Pilot</h2>
+    <div class="grid">
+      <div class="panel pad"><div class="eyebrow">Pilot Profile</div><h3>Sin</h3><p>Piloting +3<br>Gunnery +2<br>Systems +2<br>Nerve +2<br>Coral Synchronization 52%</p><p>Fighting style: adaptive mid-range pressure, rapid repositioning, and precise close-range finishing strikes.</p></div>
+      <div class="panel pad"><div class="eyebrow">Armored Core</div><h3>Black Lotus</h3><p>Custom medium bipedal AC with black armor, violet luminous accents, and a silhouette designed to feel ceremonial and lethal at once.</p><p><strong>Current condition:</strong><br>AP 5,613 / 10,240<br>ACS 84% recovering<br>Repair Kits 0</p></div>
+      <div class="panel pad"><div class="eyebrow">Loadout</div><h3>Weapons</h3><p>RF-024 Turner Assault Rifle — 1% ammo<br>HI-32: BU-TT/A Pulse Blade — operational<br>BML-G1/P31DUO-02 Dual Missile Launcher — 14% ammo<br>Left shoulder hardpoint — empty</p></div>
+      <div class="panel pad"><div class="eyebrow">Story Concept</div><h3>Visual direction</h3><p>The hub now reflects the core campaign identity you asked for: Sin as a more animated, illustrated protagonist, and the overall project shaped like a polished comic-book dossier around him.</p></div>
+    </div>
+  </section>
+
+  <section id="locations" class="tab">
+    <h2>Visited Locations</h2>
+    <p>Major locations visited so far, with visual anchors tied back to the campaign’s illustrated archive.</p>
+    <div class="grid">
+    <article class="tile-card">
+      <img src="art-3aa298f1f217aa95.png" alt="Belius Industrial Sector">
+      <div class="pad"><h3>Belius Industrial Sector</h3><p>Illegal insertion point on Rubicon. Sin first proved Black Lotus could turn a refinery into a battlefield and survive the descent into the world of scars.</p></div>
+    </article>
+    
+    <article class="tile-card">
+      <img src="art-2440429d0c6de23b.png" alt="Grid 086">
+      <div class="pad"><h3>Grid 086</h3><p>A lawless RaD industrial zone where Sin met Jackal, challenged ALLMIND’s contract logic, and entered the deeper plot surrounding ASTERIA.</p></div>
+    </article>
+    
+    <article class="tile-card">
+      <img src="art-a7215937274d824e.png" alt="Neural Interface Lab">
+      <div class="pad"><h3>Neural Interface Lab</h3><p>Hidden inside the buried Institute complex, this lab held four living human test subjects and became the turning point where rescue overtook secrecy.</p></div>
+    </article>
+    
+    <article class="tile-card">
+      <img src="art-78f41f6376bd90a0.png" alt="Project ASTERIA Core">
+      <div class="pad"><h3>Project ASTERIA Core</h3><p>The heart of the buried system where Sin, Jackal, and Elias severed ALLMIND’s bridge, destroyed the stabilizers, and ended Permanent Contact.</p></div>
+    </article>
+    </div>
+  </section>
+
+
+  <section id="worldmap" class="tab">
+    <h2>World Map</h2>
+    <p>A strategic world map for the campaign, focused on the Rubicon 3 operational theater and the major story locations tied to Sin and Black Lotus.</p>
+    <div class="panel" style="padding:14px;">
+      <img src="art-9e380ce1045f64ab.png" alt="Rubicon 3 Campaign Map" style="width:100%;display:block;border-radius:12px;border:1px solid #2b3240;">
+    </div>
+    <div class="grid" style="margin-top:18px;">
+      <div class="panel pad"><div class="eyebrow">Highlighted zones</div><h3>Story landmarks</h3><p><strong>Belius Industrial Sector</strong> marks Sin’s entry theater and the refinery running battle. <strong>Grid 086</strong> marks the contract turning point with Jackal. <strong>Neural Interface Lab</strong>, <strong>Coral Institute Depths</strong>, and the <strong>ASTERIA Core</strong> anchor the buried Institute arc.</p></div>
+      <div class="panel pad"><div class="eyebrow">Map use</div><h3>Campaign navigation</h3><p>This tab can grow with the story. We can add new regions, routes, faction overlays, mission markers, and future Chapter 4 locations as the campaign expands.</p></div>
+    </div>
+  </section>
+
+  <section id="comic" class="tab">
+    <h2>Comic Archive</h2>
+    <p>Current cover and poster-style character pages integrated into the project archive.</p>
+    <div class="grid">
+    <article class="tile-card">
+      <img src="art-0caba0c7b2c05103.png" alt="Issue Cover — AC6: Ashes of the Black Lotus">
+      <div class="pad"><h3>Issue Cover — AC6: Ashes of the Black Lotus</h3><p>Updated illustrated issue cover with the main cast and campaign locations.</p></div>
+    </article>
+    
+    <article class="tile-card">
+      <img src="art-f108998b4b8c991a.png" alt="Sin / Black Lotus Dossier">
+      <div class="pad"><h3>Sin / Black Lotus Dossier</h3><p>Main-character illustration and profile poster.</p></div>
+    </article>
+    
+    <article class="tile-card">
+      <img src="art-2cf30ed317a5a2c0.png" alt="Lyra Dossier">
+      <div class="pad"><h3>Lyra Dossier</h3><p>Coral-contact illustration and profile poster.</p></div>
+    </article>
+    
+    <article class="tile-card">
+      <img src="art-3faa2bca714c84db.png" alt="Jackal / Cerberus Dossier">
+      <div class="pad"><h3>Jackal / Cerberus Dossier</h3><p>Rogue-mercenary illustration and profile poster.</p></div>
+    </article>
+    
+    <article class="tile-card">
+      <img src="art-a980cf683be0b6f9.png" alt="Mara Dossier">
+      <div class="pad"><h3>Mara Dossier</h3><p>Operator illustration and profile poster.</p></div>
+    </article>
+    
+    <article class="tile-card">
+      <img src="art-a83506dba3cff082.png" alt="Elias Venn / Eidolon Dossier">
+      <div class="pad"><h3>Elias Venn / Eidolon Dossier</h3><p>Institute-survivor illustration and profile poster.</p></div>
+    </article>
+    </div>
+  </section>
+</main>
+<script>
+const buttons=[...document.querySelectorAll('button[data-tab]')];
+const tabs=[...document.querySelectorAll('.tab')];
+buttons.forEach(btn=>btn.addEventListener('click',()=>{buttons.forEach(b=>b.classList.remove('active'));tabs.forEach(t=>t.classList.remove('active'));btn.classList.add('active');document.getElementById(btn.dataset.tab).classList.add('active');}));
+</script>
+</body>
+</html>
